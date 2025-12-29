@@ -1,6 +1,7 @@
 # Revenant Store – Landing Page
 
-A modern, responsive landing page for **Revenant Store**, designed to showcase products and brand identity with a clean and elegant UI.
+A modern, responsive landing page built for **Revenant Store**, focused on clean design, accessibility, and smooth user experience.  
+The project demonstrates strong front-end fundamentals and practical UI implementation.
 
 ## 🌐 Live Demo
 👉 https://revenant-store.netlify.app/
@@ -8,27 +9,35 @@ A modern, responsive landing page for **Revenant Store**, designed to showcase p
 ---
 
 ## ✨ Features
-- Fully responsive design (mobile, tablet, desktop)
-- Modern UI with smooth interactions
-- FAQ accordion section
-- Clean and minimal layout
-- Optimized for performance
+- Fully responsive layout (mobile, tablet, desktop)
+- Clean and modern UI design
+- Accessible and semantic HTML structure
+- Interactive FAQ accordion
+- Contact form with basic client-side validation
+- Optimized performance and smooth transitions
 
 ---
 
 ## 🛠️ Built With
 - **HTML5**
 - **Tailwind CSS**
-- **JavaScript (Vanilla)**
+- **Vanilla JavaScript**
 
 ---
 
 ## 📱 Responsive Design
-The landing page is fully responsive and adapts smoothly across different screen sizes using Tailwind CSS utilities.
+The layout adapts seamlessly across different screen sizes using Tailwind CSS utility classes and responsive breakpoints.
+
+---
+
+## 🎯 Project Purpose
+This landing page was created as a practical project to:
+- Apply front-end fundamentals
+- Practice responsive layouts and accessibility
+- Build a real-world, client-ready landing page
 
 ---
 
 ## 👤 Author
-
 **Mohamed Hamaad**  
-Frontend Developer passionate about building clean, responsive, and user-friendly web interfaces.
+Frontend Developer focused on building clean, responsive, and accessible web interfaces.
