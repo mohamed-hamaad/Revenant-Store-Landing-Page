@@ -111,7 +111,7 @@
                         <h4 class="text-3xl text-cyan-950 font-medium m-2">Product Name</h4>
                         <p class="text-2xl text-gr   ay-800 font-medium mx-2 mb-2">Product Description</p>
                         <p class="text-xl text-gray-800 font-medium mx-2 mb-2">Product Price</p>
-                        <button class="bg-cyan-950 text-xl text-white py-2 px-4 w-40 rounded-lg mx-2 mb-2">View</button>
+                        <button class="bg-cyan-950 text-xl text-white py-2 px-4 w-40 rounded-lg mx-2 mb-2 cursor-pointer transition-all ease-in-out duration-350 hover:scale-105">View</button>
                     </div>
                 </div>
                 
@@ -123,7 +123,7 @@
                         <h4 class="text-3xl text-cyan-950 font-medium m-2">Product Name</h4>
                         <p class="text-2xl text-gr   ay-800 font-medium mx-2 mb-2">Product Description</p>
                         <p class="text-xl text-gray-800 font-medium mx-2 mb-2">Product Price</p>
-                        <button class="bg-cyan-950 text-xl text-white py-2 px-4 w-40 rounded-lg mx-2 mb-2">View</button>
+                        <button class="bg-cyan-950 text-xl text-white py-2 px-4 w-40 rounded-lg mx-2 mb-2 cursor-pointer transition-all ease-in-out duration-350 hover:scale-105">View</button>
                     </div>
                 </div>
                 
@@ -135,7 +135,7 @@
                         <h4 class="text-3xl text-cyan-950 font-medium m-2">Product Name</h4>
                         <p class="text-2xl text-gr   ay-800 font-medium mx-2 mb-2">Product Description</p>
                         <p class="text-xl text-gray-800 font-medium mx-2 mb-2">Product Price</p>
-                        <button class="bg-cyan-950 text-xl text-white py-2 px-4 w-40 rounded-lg mx-2 mb-2">View</button>
+                        <button class="bg-cyan-950 text-xl text-white py-2 px-4 w-40 rounded-lg mx-2 mb-2 cursor-pointer transition-all ease-in-out duration-350 hover:scale-105">View</button>
                     </div>
                 </div>
                 <div class="product-card max-lg:max-w-2xl max-lg:hidden bg-white p-4 rounded-2xl shadow-2xl flex flex-col">
@@ -146,7 +146,7 @@
                         <h4 class="text-3xl text-cyan-950 font-medium m-2">Product Name</h4>
                         <p class="text-2xl text-gr   ay-800 font-medium mx-2 mb-2">Product Description</p>
                         <p class="text-xl text-gray-800 font-medium mx-2 mb-2">Product Price</p>
-                        <button class="bg-cyan-950 text-xl text-white py-2 px-4 w-40 rounded-lg mx-2 mb-2">View</button>
+                        <button class="bg-cyan-950 text-xl text-white py-2 px-4 w-40 rounded-lg mx-2 mb-2 cursor-pointer transition-all ease-in-out duration-350 hover:scale-105">View</button>
                     </div>
                 </div>
                 
@@ -212,12 +212,45 @@
     <hr>
     <!-- Contact Section -->
     <section class="py-24 relative z-10" id="Contact">
-        <div class="max-w-4xl mx-auto px-6 text-center">
-            <div>
+        <div class="max-w-4xl mx-auto px-6 ">
+            <div class="text-center">
                 <h2 class="text-4xl font-bold text-stone-900 mb-8">Contact Us</h2>
-                <p class="text-stone-600 mb-16 max-w-2xl mx-auto text-xl">Wanna contact us?</p>
+                <p class="text-stone-600 mb-14 max-w-2xl mx-auto text-xl">Wanna contact us?</p>
             </div>
-            <div class="grid md:grid-cols-3 gap-8 max-w-3xl mx-auto">
+            <form class="shadow-xl mb-8 p-6 bg-white/90 backdrop-blur-sm border-2 border-stone-400 rounded-2xl flex flex-col gap-5" action="">
+                <div class="flex max-md:flex-col max-md:gap-4 justify-center items-center gap-12">
+                    <div class="flex flex-col">
+                        <label class=" mb-1 ml-2 text-lg font-bold " for="Fname">First Name</label>
+                        <input type="text" name="Fname" id="Fname" placeholder="Enter your First Name" required class="mt-2 border h-16  border-stone-300 p-3 rounded-lg mb-4
+                            transition-all duration-300 ease-in-out
+                            focus:border-blue-600 focus:outline-none
+                            focus:ring-2 focus:ring-blue-200">
+                    </div>
+                    <div class="flex flex-col">
+                        <label class="mb-1 ml-2 text-lg font-bold " for="Lname">Last Name</label>
+                        <input type="text" name="Lname" id="Lname" placeholder="Enter your Last Name" required class="mt-2 border h-16 border-stone-300 w-full p-3 rounded-lg mb-4
+                            transition-all duration-300 ease-in-out
+                            focus:border-blue-600 focus:outline-none
+                            focus:ring-2 focus:ring-blue-200">
+                    </div>
+               </div>
+                <div class="flex flex-col">
+                    <label class="block mb-2 ml-2 text-lg font-bold " for="Email">Your Email</label>
+                    <input type="email" name="Email" id="Email" placeholder="Enter your email" required class="border border-stone-300 w-full p-3 rounded-lg mb-4
+                        transition-all duration-300 ease-in-out
+                        focus:border-blue-600 focus:outline-none
+                        focus:ring-2 focus:ring-blue-200">    
+               </div>
+               <div class="flex flex-col">
+                    <label class="block mb-2 ml-2 text-lg font-bold " for="Message">Message</label>
+                    <textarea name="Message" id="Message" cols="25" rows="10" placeholder="Enter your message" required class="mt-2 border border-stone-300 w-full p-3 rounded-lg mb-4
+                        transition-all duration-300 ease-in-out
+                        focus:border-blue-600 focus:outline-none
+                        focus:ring-2 focus:ring-blue-200"></textarea>   
+               </div>
+               <button class="bg-amber-600 hover:bg-amber-700 cursor-pointer transition-all duration-350 ease-in-out text-white font-bold py-3 px-6 rounded-lg" type="submit">Submit</button>
+            </form>
+            <div class="grid md:grid-cols-3 gap-8 max-w-3xl mx-auto mt-12">
             <!-- WhatsApp -->
                 <a href="#Contact" class="group bg-white/90 backdrop-blur-sm p-8 rounded-2xl border border-stone-200 shadow-xl hover:shadow-2xl hover:border-amber-300 transition-all duration-500 flex flex-col items-center text-center">
                     <div class="w-20 h-20 bg-green-500 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
